@@ -54,6 +54,59 @@ pip install jupyter pandas numpy matplotlib seaborn scipy scikit-learn
 ```bash
 jupyter notebook World_Happiness.ipynb
 ```
+## Conclusions
+
+**1. Happiness is broadly stable, with a modest upward drift.**
+Global mean and median happiness scores dipped in 2017 but rose overall
+between 2015 and 2019, with the median improving more than the mean. This
+suggests gains were concentrated in the middle of the distribution rather
+than driven by a few extreme countries.
+
+**2. Economic and health indicators have the strongest link to happiness.**
+GDP per capita (r = 0.79) and healthy life expectancy (r = 0.74) had the
+strongest correlations with score, followed by social support (0.65) and
+freedom (0.55). Perceptions of corruption were moderate (0.40), and
+generosity was weak (0.14), so generosity says little about a country's
+overall ranking.
+
+**3. The top of the rankings is very stable.**
+New Zealand, Australia, Iceland, Denmark, and the Netherlands varied by
+only a few positions across five years. Top-ranked countries tend to stay
+there, so large shifts at the top are rare.
+
+**4. The biggest movement happens in the middle and lower ranks.**
+Benin (+53 places), Ivory Coast (+52), Honduras (+46), Hungary (+42), and
+Gabon (+39) improved the most from 2015 to 2019. Rankings are far more
+volatile outside the top tier, so small score changes there can mean large
+rank changes.
+
+**5. A simple weighted index tracks the official score closely.**
+A custom index built from just four factors (GDP, support, freedom, health)
+correlated 0.86 with the official score, suggesting a handful of indicators
+capture most of what the full methodology measures.
+
+## Recommendations
+
+- **Look at the climbers.** Benin, Ivory Coast, Honduras, Hungary, and Gabon
+  are good case studies for what changed, such as policy, economic, or
+  health developments. This analysis can't identify the cause, but it
+  shows where to look.
+- **Prioritize health and economic indicators when comparing countries.**
+  They explain the most variation, while generosity adds little.
+- **Interpret rank changes cautiously.** Because the middle of the table is
+  tightly packed, a small score change can move a country many places.
+
+## Limitations
+
+- Correlation does not imply causation.
+- The scores come from self-reported surveys and may be affected by
+  cultural differences in how people answer.
+- GDP, health, and social support likely overlap with each other, so their
+  individual effects can't be cleanly separated.
+- The same countries appear in all five years, so observations aren't
+  fully independent.
+- Findings cover 2015-2019 only and don't capture later events.
+
 
 ## Notes
 
