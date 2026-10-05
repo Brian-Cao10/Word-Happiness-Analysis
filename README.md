@@ -31,11 +31,11 @@ Word-Happiness-Analysis/
 ## Technologies Used
 
 - Python
-- pandas
+- Pandas
 - NumPy
 - Matplotlib
 - Seaborn
-- scikit-learn
+- Scikit-learn
 - SciPy
 - Jupyter Notebook
 
