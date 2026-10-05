@@ -106,8 +106,3 @@ capture most of what the full methodology measures.
 - The same countries appear in all five years, so observations aren't
   fully independent.
 - Findings cover 2015-2019 only and don't capture later events.
-
-
-## Notes
-
-This project is an exploratory data analysis and modeling exercise focused on understanding how socioeconomic indicators relate to well-being across countries and years.
