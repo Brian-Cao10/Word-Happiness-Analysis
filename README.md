@@ -42,7 +42,7 @@ Word-Happiness-Analysis/
 ## Setup
 
 ```bash
-git clone https://github.com/Brian-Cao10/Word-Happiness-Analysis.git
+git clone https://github.com/BrianCao10/Word-Happiness-Analysis.git
 cd Word-Happiness-Analysis
 python -m venv .venv
 source .venv/bin/activate
